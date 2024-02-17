@@ -1,0 +1,53 @@
+.con {
+    float: left;
+    width: 97.5%;
+    padding: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav {
+    display: inline-block;
+}
+
+.profile {
+    display: flex;
+    float: right;
+    align-items: center
+}
+.right{
+    position: absolute;
+    right: 0;
+}
+
+.pro,
+.logout,
+.login {
+    margin-right: 10px;
+}
+
+.btn {
+    padding-top: 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+    margin-right: 0.3rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+        background-color: grey;
+    }
+
+}
+.pro {
+    margin-right: 10px; 
+  }
